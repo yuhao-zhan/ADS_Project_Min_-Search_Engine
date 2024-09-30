@@ -2,8 +2,8 @@
 # include <stdlib.h>
 # include <string.h>
 # include <assert.h>
-# include "esa.h"
-# include "esa_rules.h"
+# include "../header_files/esa.h"
+# include "../header_files/esa_rules.h"
 
 static void reallocRuleList(Esa *esa);
 

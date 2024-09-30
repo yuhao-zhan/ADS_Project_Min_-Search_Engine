@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <dirent.h>
+#include "../header_files/stmr.h"
 
 #define MAX_WORD_LEN 100 //单词的最大长度
 #define MAX_FILENAME_LEN 1000 //文档名称的最大长度
 #define MAX_DOCS 10000 //每个单词出现的最大文档数
+
 //文档计数
 typedef struct{
     int doc_id; //文档ID
@@ -76,6 +79,7 @@ void add_inverted_index_entry(inverted_index *index, char *word, int doc_id, cha
 void build_inverted_index(inverted_index *index, char *filename[],int file_count){
     for(int i=0; i<file_count; i++){
         FILE *fp = fopen(filename[i], "r");
+        printf("Processing: %s\n", filename[i]);
         if(!fp){
             printf("Error: cannot open file %s\n", filename[i]);
             continue;
@@ -83,6 +87,8 @@ void build_inverted_index(inverted_index *index, char *filename[],int file_count
         char word[MAX_WORD_LEN];
         int doc_id = i;
         while(fscanf(fp, "%s", word)!=EOF){
+            int end = stem(word, 0, strlen(word) - 1);
+            word[end + 1] = 0;
             add_inverted_index_entry(index, word, doc_id, filename[i]);
         }
         fclose(fp);
@@ -98,14 +104,66 @@ void print_inverted_index(inverted_index *index){
         printf("\n");
     }
 }
-int main(){
+
+// Function to read all .txt files from the "txt" directory
+int get_txt_files(const char *directory, char ***filenames) {
+    DIR *dir;
+    struct dirent *entry;
+    int count = 0;
+
+    // Open the directory
+    if ((dir = opendir(directory)) == NULL) {
+        perror("opendir() error");
+        return -1;
+    }
+
+    // Count the number of .txt files
+    while ((entry = readdir(dir)) != NULL) {
+        if (strstr(entry->d_name, ".txt")) {
+            count++;
+        }
+    }
+
+    // Allocate memory for filenames array
+    *filenames = malloc(count * sizeof(char *));
+    if (*filenames == NULL) {
+        perror("malloc() error");
+        closedir(dir);
+        return -1;
+    }
+
+    // Reset the directory stream to read filenames
+    rewinddir(dir);
+    int i = 0;
+
+    // Store .txt filenames
+    while ((entry = readdir(dir)) != NULL) {
+        if (strstr(entry->d_name, ".txt")) {
+            // Construct full path by appending the directory and filename
+            //printf("%s\n", entry->d_name);
+            (*filenames)[i] = malloc(strlen(directory) + strlen(entry->d_name) + 2); // +2 for '/' and '\0'
+            if ((*filenames)[i] == NULL) {
+                perror("malloc() error");
+                closedir(dir);
+                return -1;
+            }
+            sprintf((*filenames)[i], "%s/%s", directory, entry->d_name);
+            i++;
+        }
+    }
+
+    closedir(dir);
+    return count;
+}
+
+/*int main(){
     inverted_index index;
     init_inverted_index(&index);
     //从指定文件读取
-    char *filenames[] = {"data.txt"};
+    char *filenames[] = {"txt/A Lover's Complaint.txt"};
     int file_count = sizeof(filenames)/sizeof(filenames[0]);
     build_inverted_index(&index, filenames, file_count);
     print_inverted_index(&index);
     free_inverted_index(&index);
     return 0;
-}
+}*/
