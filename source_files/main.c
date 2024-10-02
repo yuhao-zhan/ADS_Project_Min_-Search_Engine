@@ -53,7 +53,7 @@ int main() {
         }
 
         // Print the document IDs for each word
-        print_documents(DocumentIDs, word_count, words);
+        print_documents(DocumentIDs, word_count);
 
     } while (strcmp(words[word_count - 1], "#") != 0);
 

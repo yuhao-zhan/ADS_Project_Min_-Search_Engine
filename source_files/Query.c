@@ -1,17 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "../header_files/stmr.h"
-#include "../header_files/index.h"
-#include "../header_files/functions_in_threshold_test.h"
+#include "../header_files/AllFunctions.h"
 
-#define MAX_INPUT_SIZE 100  // Maximum size for the input string
-#define INITIAL_CAPACITY 10 // Initial capacity for the string array
-
-//void esaInit(Esa *esa);
-//void esaFree(Esa *esa);
-//void esaSetDebugMode(Esa *esa, unsigned char mode);
-//char esaStemToken(Esa *esa, char *token, int length);
+int Min(int a, int b){
+    return a < b ? a : b;
+}
 
 void ReceiveUserInput(char **words, int *capacity, int *word_count){
     char input[MAX_INPUT_SIZE]; // Buffer to hold the input string
@@ -62,6 +56,102 @@ void ReceiveUserInput(char **words, int *capacity, int *word_count){
 
 }
 
+
+// Helper function to find common document IDs between multiple queries
+void find_common_documents(inverted_index_entry *DocumentIDs1, inverted_index_entry *DocumentIDs2) {
+    int common_count = 0;
+
+    // Create a new list for common documents
+    doc_count common_docs[MAX_DOCS];
+
+    for (int i = 0; i < DocumentIDs1->doc_num; i++) {
+        for (int j = 0; j < DocumentIDs2->doc_num; j++) {
+            if (strcmp(DocumentIDs1->doc_list[i].filename, DocumentIDs2->doc_list[j].filename) == 0) {
+                // Common document found
+                common_docs[common_count] = DocumentIDs1->doc_list[i];
+                // Sum the counts of each document in the common list
+                common_docs[common_count].count += DocumentIDs2->doc_list[j].count;
+                common_count++;
+                break;
+            }
+        }
+    }
+
+    // Update DocumentIDs1 with the common documents
+    memcpy(DocumentIDs1->doc_list, common_docs, common_count * sizeof(doc_count));
+    DocumentIDs1->doc_num = common_count;
+}
+
+// Debugging function to check for NULL or invalid pointers
+void check_pointer(const char *name, void *ptr) {
+    if (ptr == NULL) {
+        printf("Error: %s is NULL\n", name);
+    } else {
+        printf("%s is valid\n", name);
+    }
+}
+
+// Function to split a query into individual words, count the number of words, and process each one
+void process_query(char* query, inverted_index *InvertedFileIndex, inverted_index_entry *finalDocumentIDs) {
+    // Create a modifiable copy of the query string (strtok modifies the string in-place)
+    char query_copy[MAX_INPUT_SIZE];
+
+    if (strlen(query) >= MAX_INPUT_SIZE) {
+        printf("Error: Query size exceeds buffer size.\n");
+        return;  // Exit if the query is too large
+    }
+
+    strcpy(query_copy, query);  // Copy the original query to the modifiable buffer
+
+    printf("Processing query: [%s]\n", query_copy);
+
+    char *word;
+    inverted_index_entry tempDocumentIDs;
+    inverted_index_entry commonDocumentIDs;
+
+    // Initialize the first query result
+    commonDocumentIDs.doc_num = 0;
+
+    // Split the query into words
+    word = strtok(query_copy, " ");
+    if (word == NULL) {
+        printf("No words found in query.\n");
+        return;  // If no words, return early
+    }
+
+    int first_word = 1;
+    int word_count = 0;
+
+    while (word != NULL) {
+        word_count++;  // Count the number of words
+
+        // Process the current word as a single word query
+        process_single_word_query(word, InvertedFileIndex, &tempDocumentIDs);
+
+        if (first_word) {
+            // If it's the first word, initialize the commonDocumentIDs with its result
+            commonDocumentIDs = tempDocumentIDs;
+            first_word = 0;
+        } else {
+            // Find common document IDs between the previous results and the current word's results
+            find_common_documents(&commonDocumentIDs, &tempDocumentIDs);
+        }
+
+        // Get the next word
+        word = strtok(NULL, " ");
+    }
+
+    // If only one word in the query, directly use the results from that word
+    if (word_count == 1) {
+        *finalDocumentIDs = commonDocumentIDs;
+    } else {
+        // If multiple words, the results in commonDocumentIDs represent the common documents
+        *finalDocumentIDs = commonDocumentIDs;
+    }
+    printf("------------------------------------------------------------------------------------------------------\n");
+}
+
+
 // Search the word in the inverted index
 void Query(char* words, inverted_index *InvertedFileIndex, inverted_index_entry *DocumentIDs){
     // Search the word in the inverted index
@@ -82,112 +172,63 @@ void Query(char* words, inverted_index *InvertedFileIndex, inverted_index_entry 
 
 // Set the thresholds to test the results
 void query_threshold_TopN_highest_results(char* words, inverted_index *InvertedFileIndex, inverted_index_entry *DocumentIDs, int threshold){
-    int found = 0;
-    for(int i=0; i<InvertedFileIndex->size; i++){
-        if(strcmp(InvertedFileIndex->table[i].word, words) == 0){
-            found = 1;
-            *DocumentIDs = InvertedFileIndex->table[i];
-            // Only return the Top N results based on the ordered frequencies
-            quickSort_descending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
-            DocumentIDs->doc_num = threshold;
-        }
-    }
-    // Word not found in the inverted index
-    if (found == 0)
-        DocumentIDs->doc_num = 0;
+    // Process the query (whether it's single or multi-word)
+    process_query(words, InvertedFileIndex, DocumentIDs);
+
+    // Only return the Top N results based on the ordered frequencies
+    quickSort_descending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
+    DocumentIDs->doc_num = Min(threshold, DocumentIDs->doc_num);
 }
 
 void query_threshold_TopN_lowest_results(char* words, inverted_index *InvertedFileIndex, inverted_index_entry *DocumentIDs, int threshold){
-    int found = 0;
-    for(int i=0; i<InvertedFileIndex->size; i++){
-        found = 1;
-        if(strcmp(InvertedFileIndex->table[i].word, words) == 0){
-            *DocumentIDs = InvertedFileIndex->table[i];
-            // Only return the Top N results based on the ordered frequencies
-            quickSort_ascending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
-            DocumentIDs->doc_num = threshold;
-        }
-    }
-    // Word not found in the inverted index
-    if (found == 0)
-        DocumentIDs->doc_num = 0;
+    // Process the query (whether it's single or multi-word)
+    process_query(words, InvertedFileIndex, DocumentIDs);
+
+    // Only return the Top N results based on the ordered frequencies
+    quickSort_ascending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
+    DocumentIDs->doc_num = Min(threshold, DocumentIDs->doc_num);
 }
 
 void query_threshold_maximal_frequency(char* words, inverted_index *InvertedFileIndex, inverted_index_entry *DocumentIDs, int threshold){
-    int found = 0;
-    for(int i=0; i<InvertedFileIndex->size; i++){
-        found = 1;
-        if(strcmp(InvertedFileIndex->table[i].word, words) == 0){
-            *DocumentIDs = InvertedFileIndex->table[i];
-            // Only return the results whose frequency is greater than the threshold
-            quickSort_ascending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
-            int count = 0;
-            for(int j=0; j<DocumentIDs->doc_num; j++){
-                if(DocumentIDs->doc_list[j].count > threshold){
-                    count++;
-                }
-            }
-            DocumentIDs->doc_num = count;
+    process_query(words, InvertedFileIndex, DocumentIDs);
+    // Only return the results whose frequency is smaller than the threshold
+    quickSort_ascending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
+    int count = 0;
+    for(int j=0; j<DocumentIDs->doc_num; j++){
+        if(DocumentIDs->doc_list[j].count > threshold){
+            count++;
         }
     }
-    // Word not found in the inverted index
-    if(found == 0)
-        DocumentIDs->doc_num = 0;
+    DocumentIDs->doc_num = count;
 }
 
 void query_threshold_minimal_frequency(char* words, inverted_index *InvertedFileIndex, inverted_index_entry *DocumentIDs, int threshold){
-    int found = 0;
-    for(int i=0; i<InvertedFileIndex->size; i++){
-        found = 1;
-        if(strcmp(InvertedFileIndex->table[i].word, words) == 0){
-            *DocumentIDs = InvertedFileIndex->table[i];
-            // Only return the results whose frequency is greater than the threshold
-            quickSort_descending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
-            int count = 0;
-            for(int j=0; j<DocumentIDs->doc_num; j++){
-                if(DocumentIDs->doc_list[j].count > threshold){
-                    count++;
-                }
-            }
-            DocumentIDs->doc_num = count;
+    process_query(words, InvertedFileIndex, DocumentIDs);
+    // Only return the results whose frequency is larger than the threshold
+    quickSort_descending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
+    int count = 0;
+    for(int j=0; j<DocumentIDs->doc_num; j++){
+        if(DocumentIDs->doc_list[j].count < threshold){
+            count++;
         }
     }
-    // Word not found in the inverted index
-    if(found == 0)
-        DocumentIDs->doc_num = 0;
+    DocumentIDs->doc_num = count;
 }
 
 void query_threshold_maximal_percentage_frequency(char* words, inverted_index *InvertedFileIndex, inverted_index_entry *DocumentIDs, int threshold){
-    int found = 0;
-    for(int i=0; i<InvertedFileIndex->size; i++){
-        if(strcmp(InvertedFileIndex->table[i].word, words) == 0){
-            found = 1;
-            *DocumentIDs = InvertedFileIndex->table[i];
-            // Only return the Top N results based on the ordered frequencies
-            quickSort_descending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
-            DocumentIDs->doc_num = threshold * DocumentIDs->doc_num / 100;
-        }
-    }
-    // Word not found in the inverted index
-    if (found == 0)
-        DocumentIDs->doc_num = 0;
+    process_query(words, InvertedFileIndex, DocumentIDs);
+    // Only return the results whose frequency is smaller than the threshold
+    quickSort_ascending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
+    DocumentIDs->doc_num = threshold * DocumentIDs->doc_num / 100;
 }
 
 void query_threshold_minimal_percentage_frequency(char* words, inverted_index *InvertedFileIndex, inverted_index_entry *DocumentIDs, int threshold){
-    int found = 0;
-    for(int i=0; i<InvertedFileIndex->size; i++){
-        found = 1;
-        if(strcmp(InvertedFileIndex->table[i].word, words) == 0){
-            *DocumentIDs = InvertedFileIndex->table[i];
-            // Only return the Top N results based on the ordered frequencies
-            quickSort_ascending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
-            DocumentIDs->doc_num = threshold * DocumentIDs->doc_num / 100;
-        }
-    }
-    // Word not found in the inverted index
-    if (found == 0)
-        DocumentIDs->doc_num = 0;
+    process_query(words, InvertedFileIndex, DocumentIDs);
+    // Only return the results whose frequency is larger than the threshold
+    quickSort_descending_order(DocumentIDs->doc_list, 0, DocumentIDs->doc_num-1);
+    DocumentIDs->doc_num = threshold * DocumentIDs->doc_num / 100;
 }
+
 
 void format_filename(char *fullpath, char *formatted_filename) {
     char *filename_start = strrchr(fullpath, '/'); // Find the last '/'
@@ -206,19 +247,58 @@ void format_filename(char *fullpath, char *formatted_filename) {
     strcpy(formatted_filename, filename_start);
 }
 
-void print_documents(inverted_index_entry *DocumentIDs, int word_count, char **words) {
-    for (int i = 0; i < word_count; i++) {
-        printf("Word: %s\n", words[i]);
-        if (DocumentIDs[i].doc_num == 0) {
+
+
+void print_documents(inverted_index_entry *DocumentIDs, int word_count) {
+    if (word_count == 1) {
+        if (DocumentIDs[0].doc_num == 0) {
             printf("No documents found.\n");
         } else {
-            for (int j = 0; j < DocumentIDs[i].doc_num; j++) {
+            for (int j = 0; j < DocumentIDs[0].doc_num; j++) {
                 char formatted_filename[100]; // Adjust size as necessary
-                format_filename(DocumentIDs[i].doc_list[j].filename, formatted_filename);
-                printf("Doc ID: %s\t Count: %d\n", formatted_filename, DocumentIDs[i].doc_list[j].count);
+                format_filename(DocumentIDs[0].doc_list[j].filename, formatted_filename);
+                printf("Doc ID: %s\tWord: %s  Count: %d", formatted_filename, DocumentIDs[0].word, DocumentIDs[0].doc_list[j].count);
             }
         }
-        printf("------------------------------------------------------------------------------------------------------------\n");
-        printf("Continue Your Query:\n");
+    } else {
+        // Only print the Documents common to all words
+        int final_common = 0;
+        for (int j = 0; j < DocumentIDs[0].doc_num; j++) {
+            int common = 1;
+            for (int i = 1; i < word_count; i++) {
+                int k = 0;
+                while (k < DocumentIDs[i].doc_num) {
+                    if (strcmp(DocumentIDs[0].doc_list[j].filename, DocumentIDs[i].doc_list[k].filename) == 0) {
+                        break;
+                    }
+                    k++;
+                }
+                if (k == DocumentIDs[i].doc_num) {
+                    common = 0;
+                    final_common = 1;
+                    break;
+                }
+            }
+            if (common == 1) {
+                char formatted_filename[100]; // Adjust size as necessary
+                format_filename(DocumentIDs[0].doc_list[j].filename, formatted_filename);
+                printf("Doc ID: %s\t", formatted_filename);
+                for (int i = 0; i < word_count; i++) {
+                    int k = 0;
+                    while (k < DocumentIDs[i].doc_num) {
+                        if (strcmp(DocumentIDs[0].doc_list[j].filename, DocumentIDs[i].doc_list[k].filename) == 0) {
+                            break;
+                        }
+                        k++;
+                    }
+                    printf("Word: %s Count: %d\t", DocumentIDs[i].word, DocumentIDs[i].doc_list[k].count);
+                }
+            }
+        }
+        if (!final_common) {
+            printf("No common documents found.\n");
+        }
     }
+    printf("\n------------------------------------------------------------------------------------------------------------\n");
+    printf("Continue Your Query:\n");
 }

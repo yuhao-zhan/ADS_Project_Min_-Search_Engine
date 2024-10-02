@@ -5,17 +5,19 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(MiniSearchEngine
         source_files/functions_in_threshold_test.c
-        header_files/functions_in_threshold_test.h
-        header_files/index.h
-        header_files/Query.h
         source_files/index.c
         source_files/Query.c
         source_files/test.c
-        header_files/esa.h
-        header_files/esa_rules.h
-        #[[source_files/esaExample.c]]
-        source_files/esa.c
-        header_files/stmr.h
-        source_files/stmr.c
+        source_files/newStmr.c
+        source_files/removepunc.c
+        header_files/AllFunctions.h
         #[[source_files/main.c]]
 )
+
+# Manually set the path for json-c library
+include_directories(/opt/homebrew/Cellar/json-c/0.18/include/json-c)
+link_directories(/opt/homebrew/Cellar/json-c/0.18/lib)
+
+# Link the json-c library
+target_link_libraries(MiniSearchEngine /opt/homebrew/Cellar/json-c/0.18/lib/libjson-c.dylib)
+

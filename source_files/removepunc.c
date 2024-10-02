@@ -33,14 +33,14 @@ void remove_punctuation(const char *input_file, const char *output_file)
 	fclose(outfile);
 }
 
-int main()
-{
-	const char *input_file = "input.txt";
-	const char *output_file = "output.txt";
-	
-	remove_punctuation(input_file, output_file);
-	
-	printf("Punctuation removed and output saved to %s\n",output_file);
-	
-	return 0;
-}
+//int main()
+//{
+//	const char *input_file = "input.txt";
+//	const char *output_file = "output.txt";
+//
+//	remove_punctuation(input_file, output_file);
+//
+//	printf("Punctuation removed and output saved to %s\n",output_file);
+//
+//	return 0;
+//}
