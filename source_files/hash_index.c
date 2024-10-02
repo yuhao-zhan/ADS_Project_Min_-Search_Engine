@@ -5,7 +5,7 @@
 #define MAX_WORD_LEN 100 // 单词的最大长度
 #define MAX_FILENAME_LEN 1000 // 文档名称的最大长度
 #define MAX_DOCS 10000 // 每个单词出现的最大文档数
-#define INITIAL_CAPACITY 1009 // 哈希表的大小（质数）
+#define INITIAL_CAPACITY 3 // 哈希表的大小（质数）
 
 // 文档计数
 typedef struct {
@@ -45,9 +45,8 @@ void init_inverted_index(inverted_index *index) {
     index->size = 0;
     index->capacity = INITIAL_CAPACITY;
     index->table = (inverted_index_entry **)malloc(INITIAL_CAPACITY * sizeof(inverted_index_entry *));
-    for (int i = 0; i < INITIAL_CAPACITY; i++) {
+    for (int i = 0; i < INITIAL_CAPACITY; i++)
         index->table[i] = NULL;
-    }
 }
 
 // 释放反向索引
@@ -68,6 +67,8 @@ void expand_inverted_index(inverted_index *index) {
     int old_capacity = index->capacity;
     index->capacity *= 2; // 扩容两倍
     inverted_index_entry **new_table = (inverted_index_entry **)malloc(index->capacity * sizeof(inverted_index_entry *));
+    for(int i = 0; i < index->capacity; i++)
+        new_table[i] = NULL; // 初始化新表
     for(int i = 0; i < old_capacity; i++){
         inverted_index_entry *entry = index->table[i];
         while(entry){
