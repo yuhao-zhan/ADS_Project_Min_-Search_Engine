@@ -5,7 +5,7 @@
 #define MAX_WORD_LEN 100 // 单词的最大长度
 #define MAX_FILENAME_LEN 1000 // 文档名称的最大长度
 #define MAX_DOCS 10000 // 每个单词出现的最大文档数
-#define INITIAL_CAPACITY 3 // 哈希表的大小（质数）
+#define INITIAL_CAPACITY 1009 // 哈希表的大小（质数）
 
 // 文档计数
 typedef struct {
