@@ -23,28 +23,28 @@ The main steps of the `add_inverted_index_entry` function are:
     - if not, add the new document information.
   - If the word does not exist, create a new entry and insert it at the head of the linked list.
 3. If the load factor of the hash table exceeds 0.7, expand the hash table.
-2.2 Building the Index
-The steps of the build_inverted_index function are:
+### 2.2 Building the Index
+The steps of the `build_inverted_index` function are:
 
-Iterate through the file list and open each file one by one.
-Read words from the file and call add_inverted_index_entry to add them to the index.
-2.3 Search Functionality
-The steps of the find_inverted_index_entry function are:
+1. Iterate through the file list and open each file one by one.
+2. Read words from the file and call `add_inverted_index_entry` to add them to the index.
+### 2.3 Search Functionality
+The steps of the `find_inverted_index_entry` function are:
 
-Calculate the hash value of the word and look for the corresponding entry.
-If found, print all related document information; otherwise, output a not found message.
-3. Time and Space Complexity Analysis
-3.1 Time Complexity
-Adding Entries (add_inverted_index_entry):
+1. Calculate the hash value of the word and look for the corresponding entry.
+2. If found, print all related document information; otherwise, output a not found message.
+# 3. Time and Space Complexity Analysis
+### 3.1 Time Complexity
+- **Adding Entries (`add_inverted_index_entry`):**
 
-Average case: O(1) (due to the properties of the hash table), worst case: O(n) (when many collisions occur).
-Building the Index (build_inverted_index):
+  - Average case: O(1) (due to the properties of the hash table), worst case: O(n) (when many collisions occur).
+- **Building the Index (`build_inverted_index`):**
 
-O(m * k), where m is the number of files and k is the number of words in each file. Each word requires a call to the add entry function.
-Finding Entries (find_inverted_index_entry):
+  - O(m * k), where m is the number of files and k is the number of words in each file. Each word requires a call to the add entry function.
+- **Finding Entries (`find_inverted_index_entry`):**
 
-Average case: O(1), worst case: O(n) (again due to collisions).
-3.2 Space Complexity
+  - Average case: O(1), worst case: O(n) (again due to collisions).
+### 3.2 Space Complexity
 Inverted Index Storage:
 
 The space complexity for the inverted index is O(n), where n is the number of unique words. If each word can associate with up to MAX_DOCS documents, the additional space complexity is O(n * MAX_DOCS).
