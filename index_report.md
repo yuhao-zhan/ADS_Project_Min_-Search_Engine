@@ -1,11 +1,11 @@
-1. Structure Analysis
-1.1 inverted_index_entry Structure
+# 1. Structure Analysis
+### 1.1 `inverted_index_entry` Structure
 This structure is used to store each entry in the inverted index, containing the following members:
 
-char word[MAX_WORD_LEN]: Stores the word.
-document doc_list[MAX_DOCS]: Document list representing the documents where the word appears.
-int doc_num: Records the number of documents.
-struct inverted_index_entry *next: Pointer to the next entry, used for the linked list structure.
+- **`char word[MAX_WORD_LEN]`**: Stores the word.
+- `document doc_list[MAX_DOCS]`: Document list representing the documents where the word appears.
+- `int doc_num`: Records the number of documents.
+- `struct inverted_index_entry *next`: Pointer to the next entry, used for the linked list structure.
 1.2 inverted_index Structure
 This structure represents the entire inverted index, containing the following members:
 
