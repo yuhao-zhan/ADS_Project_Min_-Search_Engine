@@ -5,7 +5,7 @@
 #define MAX_WORD_LEN 100 // 单词的最大长度
 #define MAX_FILENAME_LEN 1000 // 文档名称的最大长度
 #define MAX_DOCS 10000 // 每个单词出现的最大文档数
-#define INITIAL_CAPACITY 1009 // 哈希表的大小（质数）
+#define INITIAL_CAPACITY 3 // 哈希表的大小（质数）
 
 // 文档计数
 typedef struct {
@@ -155,12 +155,35 @@ void print_inverted_index(inverted_index *index) {
         while (entry) {
             printf("%s: ", entry->word);
             for (int j = 0; j < entry->doc_num; j++) {
-                printf("Doc:%d & Document:%s (%d times)", entry->doc_list[j].doc_id, entry->doc_list[j].filename, entry->doc_list[j].count);
+                printf("  - %s (Doc ID: %d, Count: %d)", entry->doc_list[j].filename, entry->doc_list[j].doc_id, entry->doc_list[j].count);
             }
             printf("\n");
             entry = entry->next; // 移动到下一个条目
         }
     }
+}
+
+// 查找函数
+void find_inverted_index_entry(inverted_index *index, char *word) {
+    unsigned long idx = hash(word) % index->capacity; // 计算索引
+    inverted_index_entry* entry = index->table[idx]; // 找到链表头
+
+    while (entry) {
+        if (strcmp(entry->word, word) == 0) {
+            printf("Word: %s\n", entry->word);
+            printf("Documents:\n");
+            for (int i = 0; i < entry->doc_num; i++) {
+                printf("  - %s (Doc ID: %d, Count: %d)\n",
+                       entry->doc_list[i].filename,
+                       entry->doc_list[i].doc_id,
+                       entry->doc_list[i].count);
+            }
+            return;
+        }
+        entry = entry->next; // 继续查找下一个链表项
+    }
+
+    printf("Word '%s' not found in the index.\n", word);
 }
 
 int main() {
@@ -171,6 +194,7 @@ int main() {
     int file_count = sizeof(filenames) / sizeof(filenames[0]);
     build_inverted_index(&index, filenames, file_count);
     print_inverted_index(&index);
+    find_inverted_index_entry(&index, "hello");
     free_inverted_index(&index);
     return 0;
 }
