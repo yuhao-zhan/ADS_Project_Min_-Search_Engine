@@ -14,13 +14,15 @@ This structure represents the entire inverted index, containing the following me
 - **`int capacity`**: The capacity of the hash table.
 # 2. Algorithm Analysis
 ### 2.1 Adding Entries
-The main steps of the add_inverted_index_entry function are:
+The main steps of the `add_inverted_index_entry` function are:
 
-Calculate the hash value of the word and determine the index position.
-Check if there is already an entry for the word in the hash table:
-If it exists, check if the document list already contains the document. If yes, increment the count; if not, add the new document information.
-If the word does not exist, create a new entry and insert it at the head of the linked list.
-If the load factor of the hash table exceeds 0.7, expand the hash table.
+1. Calculate the hash value of the word and determine the index position.
+2. Check if there is already an entry for the word in the hash table:
+  - If it exists, check if the document list already contains the document.
+    - If yes, increment the count;
+    - if not, add the new document information.
+  - If the word does not exist, create a new entry and insert it at the head of the linked list.
+3. If the load factor of the hash table exceeds 0.7, expand the hash table.
 2.2 Building the Index
 The steps of the build_inverted_index function are:
 
