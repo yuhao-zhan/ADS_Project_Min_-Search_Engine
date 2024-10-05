@@ -6,14 +6,14 @@ This structure is used to store each entry in the inverted index, containing the
 - **`document doc_list[MAX_DOCS]`**: Document list representing the documents where the word appears.
 - **`int doc_num`**: Records the number of documents.
 - **`struct inverted_index_entry *next`**: Pointer to the next entry, used for the linked list structure.
-1.2 inverted_index Structure
+### 1.2 `inverted_index` Structure
 This structure represents the entire inverted index, containing the following members:
 
-inverted_index_entry **table: Hash table storing pointers to inverted_index_entry.
-int size: The current number of entries stored in the index.
-int capacity: The capacity of the hash table.
-2. Algorithm Analysis
-2.1 Adding Entries
+- **`inverted_index_entry **table`**: Hash table storing pointers to inverted_index_entry.
+- **`int size`**: The current number of entries stored in the index.
+- **`int capacity`**: The capacity of the hash table.
+# 2. Algorithm Analysis
+### 2.1 Adding Entries
 The main steps of the add_inverted_index_entry function are:
 
 Calculate the hash value of the word and determine the index position.
