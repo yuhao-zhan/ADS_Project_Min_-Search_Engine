@@ -45,14 +45,14 @@ The steps of the `find_inverted_index_entry` function are:
 
   - Average case: O(1), worst case: O(n) (again due to collisions).
 ### 3.2 Space Complexity
-Inverted Index Storage:
+- **Inverted Index Storage:**
 
-The space complexity for the inverted index is O(n), where n is the number of unique words. If each word can associate with up to MAX_DOCS documents, the additional space complexity is O(n * MAX_DOCS).
-Hash Table:
+  - The space complexity for the inverted index is O(n), where n is the number of unique words. If each word can associate with up to MAX_DOCS documents, the additional space complexity is O(n * MAX_DOCS).
+- **Hash Table:**
 
-The size of the hash table is capacity, occupying O(c), where c is the capacity of the hash table.
-Overall:
+  - The size of the hash table is capacity, occupying O(c), where c is the capacity of the hash table.
+- **Overall:**
 
-The total space complexity is O(n + c), where in the worst case, n and c may be very close.
-4. Conclusion
+  - The total space complexity is O(n + c), where in the worst case, n and c may be very close.
+# 4. Conclusion
 The implemented inverted index effectively supports word retrieval in documents. By using a hash table to store words and their associated documents, the program can achieve fast query and addition operations on average. However, in extreme cases, hash collisions may lead to performance degradation. Therefore, in practical applications, improving the hash function or adopting other data structures may further enhance efficiency.
