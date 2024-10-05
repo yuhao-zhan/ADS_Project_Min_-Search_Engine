@@ -41,6 +41,10 @@ The steps of the `find_inverted_index_entry` function are:
 - **Building the Index (`build_inverted_index`):**
 
   - O(m * k), where m is the number of files and k is the number of words in each file. Each word requires a call to the add entry function.
+ 
+- **Rehashing(`expand_inverted_index`):**
+
+  - If there are ( n ) elements in the original hash table, this step takes ( O(n) ) time.Considering the trigger resizing is 0.7 which means that for every 0.7*capacity words the table rehashed once,the amoritized time complexity is (O(1)).
 - **Finding Entries (`find_inverted_index_entry`):**
 
   - Average case: O(1), worst case: O(n) (again due to collisions).
