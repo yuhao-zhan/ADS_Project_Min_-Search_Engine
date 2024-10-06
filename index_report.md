@@ -60,5 +60,11 @@ The steps of the `find_inverted_index_entry` function are:
 - **Overall:**
 
   - The total space complexity is O(n + c), where in the worst case, n and c may be very close.
-# 4. Conclusion
+# 4. Error Analysis
+### 1. Document Name Handling
+When adding a document, if the document name contains special characters (such as spaces, slashes, etc.), it may lead to file path issues or errors in string comparison.
+```
+add_inverted_index_entry(index, "word", 1, "path/to/document with spaces.txt"); // 可能会导致文件处理出错
+```
+# 5. Conclusion
 The implemented inverted index effectively supports word retrieval in documents. By using a hash table to store words and their associated documents, the program can achieve fast query and addition operations on average. However, in extreme cases, hash collisions may lead to performance degradation. Therefore, in practical applications, improving the hash function or adopting other data structures may further enhance efficiency.
