@@ -64,7 +64,22 @@ The steps of the `find_inverted_index_entry` function are:
 ### 1. Document Name Handling
 When adding a document, if the document name contains special characters (such as spaces, slashes, etc.), it may lead to file path issues or errors in string comparison.
 ```
-add_inverted_index_entry(index, "word", 1, "path/to/document with spaces.txt"); // 可能会导致文件处理出错
+add_inverted_index_entry(index, "word", 1, "path/to/document with spaces.txt"); // may lead to wrong documents
+```
+### 2. Hash Collision
+If two different words produce the same index value when processed by a hash function (i.e., a hash collision), it may result in a long linked list, thereby reducing search efficiency. For example, the words "apple" and "banana" might be hashed to the same index position, causing them to share the same linked list.
+```
+suppose that hash("apple") % capacity == hash("banana") % capacity
+```
+### 3. Concurrent Access
+If multiple threads modify the index simultaneously without a synchronization mechanism, it may lead to data races and inconsistent states.
+```
+// Multiple threads calling add_inverted_index_entry simultaneously may lead to data corruption.
+```
+### 4. Long String Processing
+For very long strings, DJB2 may become inefficient, especially as the number of iterations in the hash value computation increases significantly.
+```
+// Long strings like "this is a very long string that continues and continues..." take a considerable amount of time to compute the hash.
 ```
 # 5. Conclusion
 The implemented inverted index effectively supports word retrieval in documents. By using a hash table to store words and their associated documents, the program can achieve fast query and addition operations on average. However, in extreme cases, hash collisions may lead to performance degradation. Therefore, in practical applications, improving the hash function or adopting other data structures may further enhance efficiency.
