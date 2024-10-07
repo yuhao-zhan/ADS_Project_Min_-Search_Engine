@@ -1,0 +1,3 @@
+/Users/zhanyuxiao/Desktop/CLionProjects/ADS/Project1/MiniSearchEngine/cmake-build-debug/CMakeFiles/MiniSearchEngine.dir
+/Users/zhanyuxiao/Desktop/CLionProjects/ADS/Project1/MiniSearchEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhanyuxiao/Desktop/CLionProjects/ADS/Project1/MiniSearchEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir

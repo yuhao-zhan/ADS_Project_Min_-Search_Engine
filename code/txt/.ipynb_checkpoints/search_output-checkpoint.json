@@ -1,0 +1,1236 @@
+{
+  "one_word": [
+    {
+      "query": "alas",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "art",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "aye",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "beseech",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "betwixt",
+      "expected_result_ID": [
+        "Winter's Tale","As You Like It","Cymbeline","All's Well That Ends Well","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Third part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "blest",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure"
+      ]
+    },
+    {
+      "query": "brave",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "cast",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "chide",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "clamor",
+      "expected_result_ID": [
+        "As You Like It","Venus and Adonis","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","A Midsummer Night's Dream","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "come",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "crown",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "decree",
+      "expected_result_ID": [
+        "As You Like It","The Rape of Lucrece","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Life and Death of Julius Caesar","Much Ado About Nothing","Twelfth Night","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Merchant of Venice","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure"
+      ]
+    },
+    {
+      "query": "doth",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "ere",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "exeunt",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "fair",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "fie",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "fleet",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","As You Like It","Cymbeline","The Rape of Lucrece","Loves Labours Lost","Venus and Adonis","The Tempest","Much Ado About Nothing","The Life and Death of Richard the Third","Twelfth Night","The Life and Death of King John","Othello, the Moore of Venice","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","Antony and Cleopatra","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "forsooth",
+      "expected_result_ID": [
+        "The Merry Wives of Windsor","As You Like It","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","The First part of King Henry the Fourth","Titus Andronicus","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "forth",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "foul",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "fret",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Venus and Adonis","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Life and Death of King John","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "gaze",
+      "expected_result_ID": [
+        "Winter's Tale","The Rape of Lucrece","Troilus and Cressida","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Life and Death of Julius Caesar","The Life and Death of Richard the Third","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","Antony and Cleopatra","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "hark",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "haste",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "hence",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "herald",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "ho",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "hither",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "honesty",
+      "expected_result_ID": [
+        "The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Life of King Henry the Eighth","Antony and Cleopatra","The Comedy of Errors","Romeo and Juliet","Measure for Measure"
+      ]
+    },
+    {
+      "query": "humble",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The Life and Death of Richard the Second","Titus Andronicus","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "kind",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "kiss",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "knave",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "lady",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "lament",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","All's Well That Ends Well","Loves Labours Lost","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Two Gentlemen of Verona","The Tragedy of Macbeth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "lest",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "lo",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "lord",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "majesty",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","King Lear","The Life and Death of Richard the Third","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","Pericles, Prince of Tyre","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "marry",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "nay",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "noble",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "oath",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "perchance",
+      "expected_result_ID": [
+        "Winter's Tale","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","Much Ado About Nothing","King Lear","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","Timon of Athens","The Merchant of Venice","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Measure for Measure"
+      ]
+    },
+    {
+      "query": "peril",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Measure for Measure","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "pious",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Venus and Adonis","Much Ado About Nothing","The Life and Death of Richard the Third","The Tragedy of Macbeth","Timon of Athens","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Pericles, Prince of Tyre","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "prithee",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","The Comedy of Errors","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "quoth",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","As You Like It","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Richard the Third","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "realm",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","The Tragedy of Hamlet, Prince of Denmark","King Lear","The Life and Death of Richard the Third","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Life and Death of King John","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "renown",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","As You Like It","Cymbeline","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","Much Ado About Nothing","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "resolve",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","The Tragedy of Hamlet, Prince of Denmark","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","Antony and Cleopatra","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "revenge",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "ruthless",
+      "expected_result_ID": [
+        "The Life and Death of Richard the Third","Titus Andronicus","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "scorn",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "slain",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","Venus and Adonis","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "sovereign",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "strife",
+      "expected_result_ID": [
+        "The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Venus and Adonis","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "sworn",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "sword",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "tarry",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Troilus and Cressida","All's Well That Ends Well","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","Titus Andronicus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Measure for Measure","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "tempest",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "thee",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "thine",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "thou",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "thy",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "tis",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "tragedy",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Tragedy of Hamlet, Prince of Denmark","The Life and Death of Richard the Third","Titus Andronicus","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","A Midsummer Night's Dream","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "tread",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","King Lear","The Life and Death of Richard the Third","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","The Life and Death of King John","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure"
+      ]
+    },
+    {
+      "query": "treason",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "tremble",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "troth",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","The Tempest","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "valor",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Troilus and Cressida","The Second part of King Henry the Fourth"
+      ]
+    },
+    {
+      "query": "vexed",
+      "expected_result_ID": [
+        "Cymbeline","All's Well That Ends Well","The Life and Death of Julius Caesar","A FUNERAL ELEGY.","Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "vile",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "virtue",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "vow",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "wanton",
+      "expected_result_ID": [
+        "The Merry Wives of Windsor","Winter's Tale","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","A Midsummer Night's Dream","Romeo and Juliet","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "waste",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "woe",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "wrath",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","Antony and Cleopatra","A Midsummer Night's Dream","Pericles, Prince of Tyre","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "yonder",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","As You Like It","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Life and Death of Julius Caesar","Much Ado About Nothing","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Life and Death of Richard the Second","Titus Andronicus","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Merchant of Venice","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "zeal",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Much Ado About Nothing","The Life and Death of Richard the Third","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","A FUNERAL ELEGY.","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth"
+      ]
+    },
+    {
+      "query": "bold",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "coy",
+      "expected_result_ID": [
+        "The Rape of Lucrece","Venus and Adonis","Much Ado About Nothing","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Coriolanus","A Midsummer Night's Dream","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "dear",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "doom",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Loves Labours Lost","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","Antony and Cleopatra","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "fickle",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","A Lover's Complaint","Venus and Adonis","King Lear","The First part of King Henry the Fourth","The Life and Death of King John","Romeo and Juliet","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "feast",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Life and Death of Julius Caesar","Much Ado About Nothing","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "fool",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "gallant",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","The Life and Death of Richard the Third","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "gleam",
+      "expected_result_ID": [
+        "The Rape of Lucrece","A Midsummer Night's Dream"
+      ]
+    },
+    {
+      "query": "haste",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "joy",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "jest",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "lust",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Life of King Henry the Eighth","Antony and Cleopatra","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "mock",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","The Tragedy of Macbeth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "plight",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","Cymbeline","The Rape of Lucrece","Troilus and Cressida","Loves Labours Lost","King Lear","Twelfth Night","The Tragedy of Macbeth","Titus Andronicus","The Third part of King Henry the Sixth","Antony and Cleopatra","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "serpent",
+      "expected_result_ID": [
+        "The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Tragedy of Macbeth","The Life and Death of Richard the Second","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","The Merchant of Venice","Antony and Cleopatra","A Midsummer Night's Dream","Romeo and Juliet","Pericles, Prince of Tyre"
+      ]
+    },
+    {
+      "query": "sigh",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "swoon",
+      "expected_result_ID": [
+        "Winter's Tale","As You Like It","Troilus and Cressida","A Lover's Complaint","Loves Labours Lost","Much Ado About Nothing","The Life and Death of Richard the Third","Two Gentlemen of Verona","Titus Andronicus","The Life and Death of King John","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","Antony and Cleopatra","A Midsummer Night's Dream","Measure for Measure"
+      ]
+    },
+    {
+      "query": "tale",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Merry Wives of Windsor","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","A Lover's Complaint","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","Much Ado About Nothing","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","A FUNERAL ELEGY.","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Merchant of Venice","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "valor",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Troilus and Cressida","The Second part of King Henry the Fourth"
+      ]
+    },
+    {
+      "query": "weary",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","As You Like It","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","All's Well That Ends Well","Loves Labours Lost","Venus and Adonis","The Tempest","The Life and Death of Julius Caesar","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The Tragedy of Macbeth","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Merchant of Venice","The Life of King Henry the Eighth","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    }
+  ],
+  "two_word": [
+    {
+      "query": "brave new",
+      "expected_result_ID": [
+        "The Tempest"
+      ]
+    },
+    {
+      "query": "foul play",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark","Loves Labours Lost","The Tempest","King Lear","The First part of King Henry the Fourth","The Life and Death of King John","Pericles, Prince of Tyre"
+      ]
+    },
+    {
+      "query": "fair play",
+      "expected_result_ID": [
+        "Troilus and Cressida","The Tempest","The Life and Death of King John"
+      ]
+    },
+    {
+      "query": "green-eyed monster",
+      "expected_result_ID": [
+        "Othello, the Moore of Venice"
+      ]
+    },
+    {
+      "query": "foregone conclusion",
+      "expected_result_ID": [
+        "Othello, the Moore of Venice"
+      ]
+    },
+    {
+      "query": "good riddance",
+      "expected_result_ID": [
+        "Troilus and Cressida"
+      ]
+    },
+    {
+      "query": "heart sore",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "high heaven",
+      "expected_result_ID": [
+        "All's Well That Ends Well","Venus and Adonis","Measure for Measure"
+      ]
+    },
+    {
+      "query": "cold comfort",
+      "expected_result_ID": [
+        "The Life and Death of King John","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "false heart",
+      "expected_result_ID": [
+        "Cymbeline","The Rape of Lucrece","The Tragedy of Macbeth","Timon of Athens","The Merchant of Venice"
+      ]
+    },
+    {
+      "query": "faint heart",
+      "expected_result_ID": [
+        "The Rape of Lucrece","Venus and Adonis"
+      ]
+    },
+    {
+      "query": "hot blood",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","The Second part of King Henry the Fourth","Timon of Athens","The Second part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "wild goose",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "golden crown",
+      "expected_result_ID": [
+        "Cymbeline","The Life and Death of Richard the Third","The Life and Death of Richard the Second","The Third part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "proud man",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","The Life and Death of Richard the Second","Measure for Measure"
+      ]
+    },
+    {
+      "query": "noble mind",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark","The Life and Death of Julius Caesar","Titus Andronicus","Timon of Athens","The Second part of King Henry the Sixth","Antony and Cleopatra"
+      ]
+    },
+    {
+      "query": "bated breath",
+      "expected_result_ID": [
+        "The Merchant of Venice"
+      ]
+    },
+    {
+      "query": "cruel kindness",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "harsh world",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark"
+      ]
+    },
+    {
+      "query": "heavenly power",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark","The Tempest","Othello, the Moore of Venice"
+      ]
+    },
+    {
+      "query": "heavy heart",
+      "expected_result_ID": [
+        "Troilus and Cressida","Loves Labours Lost","Venus and Adonis","The Life and Death of Richard the Third","The Life and Death of Richard the Second","Othello, the Moore of Venice"
+      ]
+    },
+    {
+      "query": "honest knave",
+      "expected_result_ID": [
+        "The Merry Wives of Windsor","Othello, the Moore of Venice"
+      ]
+    },
+    {
+      "query": "hot haste",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "hungry lion",
+      "expected_result_ID": [
+        "As You Like It","Two Gentlemen of Verona","A Midsummer Night's Dream","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "idle words",
+      "expected_result_ID": [
+        "The Rape of Lucrece","A FUNERAL ELEGY.","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "ill deeds",
+      "expected_result_ID": [
+        "The Life and Death of King John"
+      ]
+    },
+    {
+      "query": "kind blessing",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "loyal heart",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "mad world",
+      "expected_result_ID": [
+        "The Life and Death of King John"
+      ]
+    },
+    {
+      "query": "noble lord",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Cymbeline","The Tragedy of Hamlet, Prince of Denmark","All's Well That Ends Well","Loves Labours Lost","The Tempest","King Lear","The Life and Death of Richard the Third","Twelfth Night","Two Gentlemen of Verona","The First part of King Henry the Fourth","The Life and Death of Richard the Second","Titus Andronicus","The Life and Death of King John","Othello, the Moore of Venice","The Tragedy of Coriolanus","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","Timon of Athens","The Second part of King Henry the Sixth","The Life of King Henry the Eighth","Antony and Cleopatra","A Midsummer Night's Dream","Measure for Measure","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "patient mind",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "pale face",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "poor wretch",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","Cymbeline","The Rape of Lucrece","The Tragedy of Hamlet, Prince of Denmark","Troilus and Cressida","Venus and Adonis","The Third part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "proud heart",
+      "expected_result_ID": [
+        "Troilus and Cressida","The Life and Death of Julius Caesar","The Life and Death of Richard the Third","The Life and Death of Richard the Second","The Tragedy of Coriolanus","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "quiet strength",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "ruthless foe",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "sad hours",
+      "expected_result_ID": [
+        "Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "sacred trust",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "scornful eyes",
+      "expected_result_ID": [
+        "King Lear"
+      ]
+    },
+    {
+      "query": "sharp tooth",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "silent moon",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "smooth brow",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "soft voice",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "sour face",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "sweet sorrow",
+      "expected_result_ID": [
+        "Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "swift foot",
+      "expected_result_ID": [
+        "As You Like It","Timon of Athens"
+      ]
+    },
+    {
+      "query": "tender kiss",
+      "expected_result_ID": [
+        "Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "true faith",
+      "expected_result_ID": [
+        "As You Like It","The Life and Death of Julius Caesar","The Life and Death of Richard the Second"
+      ]
+    },
+    {
+      "query": "vile body",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "weary night",
+      "expected_result_ID": [
+        "A Midsummer Night's Dream"
+      ]
+    },
+    {
+      "query": "wicked spirit",
+      "expected_result_ID": [
+        "The Second part of King Henry the Sixth","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "wise folly",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "worthy cause",
+      "expected_result_ID": [
+        "The Life and Death of Julius Caesar","Othello, the Moore of Venice"
+      ]
+    },
+    {
+      "query": "false hope",
+      "expected_result_ID": [
+        "The Life and Death of Richard the Second","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "blind love",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "broken vow",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "burning love",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "dead silence",
+      "expected_result_ID": [
+        "Two Gentlemen of Verona"
+      ]
+    },
+    {
+      "query": "deep grief",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark"
+      ]
+    },
+    {
+      "query": "divine justice",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "eternal bond",
+      "expected_result_ID": [
+        "Twelfth Night"
+      ]
+    },
+    {
+      "query": "evil deeds",
+      "expected_result_ID": [
+        "The Third part of King Henry the Sixth","Measure for Measure"
+      ]
+    },
+    {
+      "query": "faithful friend",
+      "expected_result_ID": [
+        "Loves Labours Lost","Titus Andronicus","The Life of King Henry the Eighth","Measure for Measure"
+      ]
+    },
+    {
+      "query": "fierce storm",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "fickle fortune",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "fiery eyes",
+      "expected_result_ID": [
+        "Venus and Adonis","The Life and Death of Julius Caesar","The Third part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "foolish wit",
+      "expected_result_ID": [
+        "Twelfth Night"
+      ]
+    },
+    {
+      "query": "forsworn faith",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "gentle breath",
+      "expected_result_ID": [
+        "The Tempest","Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "gilded tomb",
+      "expected_result_ID": [
+        "The Merchant of Venice"
+      ]
+    },
+    {
+      "query": "glad tidings",
+      "expected_result_ID": [
+        "The Second part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "golden sleep",
+      "expected_result_ID": [
+        "The First part of King Henry the Fourth","Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "heavy burden",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","The Comedy of Errors","Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "honest fool",
+      "expected_result_ID": [
+        "Othello, the Moore of Venice","Timon of Athens"
+      ]
+    },
+    {
+      "query": "humble pride",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "jealous thoughts",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "kind soul",
+      "expected_result_ID": [
+        "The Life and Death of Julius Caesar","The Life and Death of King John"
+      ]
+    },
+    {
+      "query": "lawful prey",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "light hearts",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "mortal coil",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark"
+      ]
+    },
+    {
+      "query": "noble spirit",
+      "expected_result_ID": [
+        "Timon of Athens","The Life of King Henry the Eighth"
+      ]
+    },
+    {
+      "query": "peaceful sleep",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "perfect love",
+      "expected_result_ID": [
+        "The Life and Death of Richard the Third","The Taming of the Shrew","The First part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "poisoned mind",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "poor soul",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth","Winter's Tale","The Rape of Lucrece","Loves Labours Lost","The Tempest","The Life and Death of Julius Caesar","The Life and Death of Richard the Third","Othello, the Moore of Venice","The Second part of King Henry the Fourth","The Third part of King Henry the Sixth","The Second part of King Henry the Sixth","A Midsummer Night's Dream","The Comedy of Errors","Romeo and Juliet","Pericles, Prince of Tyre","Measure for Measure","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "private grief",
+      "expected_result_ID": [
+        "The Life and Death of Julius Caesar"
+      ]
+    },
+    {
+      "query": "public good",
+      "expected_result_ID": [
+        "The Second part of King Henry the Sixth"
+      ]
+    },
+    {
+      "query": "purple testament",
+      "expected_result_ID": [
+        "The Life and Death of Richard the Second"
+      ]
+    },
+    {
+      "query": "raging sea",
+      "expected_result_ID": [
+        "King Lear","Two Gentlemen of Verona"
+      ]
+    },
+    {
+      "query": "shallow wit",
+      "expected_result_ID": [
+        "The Life of King Henry the Fifth"
+      ]
+    },
+    {
+      "query": "silent tear",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "sour woe",
+      "expected_result_ID": [
+        "Romeo and Juliet"
+      ]
+    },
+    {
+      "query": "stony heart",
+      "expected_result_ID": [
+        "The Second part of King Henry the Fourth"
+      ]
+    },
+    {
+      "query": "timeless honor",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "trembling hand",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "trusty servant",
+      "expected_result_ID": [
+        "King Lear","The Taming of the Shrew"
+      ]
+    },
+    {
+      "query": "twilight hours",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "virtuous mind",
+      "expected_result_ID": [
+        "The Merry Wives of Windsor"
+      ]
+    },
+    {
+      "query": "wanton winds",
+      "expected_result_ID": [
+        ""
+      ]
+    },
+    {
+      "query": "wretched state",
+      "expected_result_ID": [
+        "The Tragedy of Hamlet, Prince of Denmark"
+      ]
+    }
+  ]
+}
