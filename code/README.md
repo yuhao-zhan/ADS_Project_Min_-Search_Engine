@@ -10,14 +10,27 @@ This is the README file for instructions on building the executable file and how
 2. Secondly, we want to introduce each file and subdirectory in `code` folder.
 
    * `header_files`: stores all the header files used in this project.
+
    * `source_files`: stores all the source **.c** files used in this project.
+
    * `other_files`: stores all the files needed to achieve complete functions.
      * `GroundTruthDataMaking.sh`: generating ground truth data.
+     
+       > [!TIP]
+       >
+       > You can run the bash file in cmd.
+       >
+       > 1. `cd` to the `other_files` directory.
+       > 2. enter `./GroundTruthDataMaking.sh`, and it will run.
+     
      * `VisualizeResults.ipynb`: visualize the results.
-
+     
    * `txt`: stores all the documents we have curated by **Web Crawler.**
-   * `search_output.json`: our ground truth data for test.
+
+   * `data.json`: our ground truth data for test.
+
    * `build_new` and `cmake-build-debug`: Come with Clion environment.
+
    * `CMakeLists.txt`: Comes with Clion environment. You can determine which programs are executable or not to achieve different functions.
 
    > [!NOTE]

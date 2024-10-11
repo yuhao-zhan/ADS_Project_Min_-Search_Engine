@@ -270,4 +270,4 @@ output_json+="  ]\n}"
 cd -
 
 # Write the output to a .json file
-echo -e "$output_json" > search_output.json
+echo -e "$output_json" > data.json
